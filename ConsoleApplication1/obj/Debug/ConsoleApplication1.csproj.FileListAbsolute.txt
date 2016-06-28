@@ -4,3 +4,6 @@ E:\test\ConsoleApps\ConsoleApplication2\ConsoleApplication1\bin\Debug\ConsoleApp
 E:\test\ConsoleApps\ConsoleApplication2\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 E:\test\ConsoleApps\ConsoleApplication2\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
 E:\test\ConsoleApps\ConsoleApplication2\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+E:\GithubRepository\ConsoleApplication2\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+E:\GithubRepository\ConsoleApplication2\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+E:\GithubRepository\ConsoleApplication2\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
