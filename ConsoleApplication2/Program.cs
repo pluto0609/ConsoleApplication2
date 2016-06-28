@@ -5,22 +5,35 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
+using System.Threading;
 
 namespace ConsoleApplication2
 {
+    public class Target
+    {
+        public string Url { get; set; }
+        public string Title { get; set; }
+    }
     class Program
     {
+        private delegate int NewTaskDelegate(int ms);
+
         static void Main(string[] args)
         {
+            xiaoshuo();
+            Console.ReadLine();
+        }
+        
 
+        /// <summary>
+        /// 下载小说
+        /// </summary>
+        private static void xiaoshuo()
+        {
             var context = DownloadPage("http://www.quledu.com/wcxs-41566/");
 
             var urlList = new Dictionary<string, string>();
-
-            //string path="";
-            //SaveContent(path, context);
-
+            
             string menuPattern = "<li.*?>.*?<a.*?href=\"(?<url>.*?)\".*?>(?<title>.*?)</a.*?>.*?</li.*?>";
             var mclistMenu = Resolve(menuPattern, context);
 
@@ -37,27 +50,48 @@ namespace ConsoleApplication2
             if (urlList.Count > 0)
                 foreach (var url in urlList.Keys)
                 {
-                    var content = DownloadPage("http://www.quledu.com" + url);
-                    string contentPatten = "<div.*?id=\"htmlContent\".*?>(?<content>.*?)</div>";
-                    var mcList = Resolve(contentPatten, content);
-                    if (mcList == null) continue;
-
-                    foreach (Match mc in mcList)
-                    {
-                        if (mc.Success)
-                        {
-                            string path = string.Format(@"{0}\{1}.txt", @"D:\宁小闲御神录_2\", urlList[url]);
-                            Console.WriteLine("正在下载[{0}]\t保存路径为:[{1}]", url, path);
-                            SaveContent(path,
-                                mc.Groups["content"].Value);
-                        }
-                    }
+                    var title = urlList[url];
+                    Target t = new Target {Title = title, Url = url};
+                    ThreadPool.QueueUserWorkItem(GetUrlAndSave, t);
                 }
         }
 
+        private static void GetUrlAndSave(object target)
+        {
+            try
+            {
+                var t = target as Target;
+                Dictionary<string, string> urlList;
+                var content = DownloadPage("http://www.quledu.com" + t.Url);
+                string contentPatten = "<div.*?id=\"htmlContent\".*?>(?<content>.*?)</div>";
+                var mcList = Resolve(contentPatten, content);
+                if (mcList == null) return;
+
+                foreach (Match mc in mcList)
+                {
+                    if (mc.Success)
+                    {
+                        string path = string.Format(@"{0}\{1}.txt", @"D:\宁小闲御神录_3\", t.Title);
+                        Console.WriteLine("正在下载[{0}]\t保存路径为:[{1}]", t.Url, path);
+                        SaveContent(path,
+                            mc.Groups["content"].Value);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+
+        /// <summary>
+        /// 解析指定文本内容
+        /// </summary>
+        /// <param name="menuPattern"></param>
+        /// <param name="context"></param>
+        /// <returns></returns>
         private static MatchCollection Resolve( string menuPattern,string context)
         {
-            //menuPattern = "<li.*?>.*?<a.*?href=\"(?<url>.*?)\".*?>(?<title>.*?)</a.*?>.*?</li.*?>";
             if (string.IsNullOrEmpty(context)) return null;
             Regex reg_menu = new Regex(menuPattern, RegexOptions.Singleline);
             MatchCollection mclistMenu = reg_menu.Matches(context);
@@ -65,10 +99,19 @@ namespace ConsoleApplication2
         }
 
 
-        private static void SaveContent(string path, string context)
+        private static string Replace(string pattern,string content)
+        {
+            Regex re = new Regex(pattern, RegexOptions.Singleline);
+            var str = re.Replace(content, "");
+            return str;
+        }
+
+
+        public static void SaveContent(string path, string context)
         {
             using (FileStream fs = new FileStream(path, FileMode.Create, FileAccess.Write))
             {
+                context = Replace("[(&nbsp;)|(<br.*?>)|(<img.*?>)].*?", context);
                 var sw = new StreamWriter(fs);
                 sw.Write(context);
                 sw.Flush();
@@ -79,14 +122,9 @@ namespace ConsoleApplication2
         private static string DownloadPage(string url)
         {
             var request = WebRequest.Create(url);
-            //var user_agent = "Mozilla/5.0 (Windows NT 6.2; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0";
-            //request.Headers.Set("User-Agent",user_agent);
             
             var response = request.GetResponse() as HttpWebResponse;
-
-            //if(response.)
-            //response as HttpWebResponse
-
+            
             if (response.StatusCode != HttpStatusCode.OK) return string.Empty;
 
             var stream = response.GetResponseStream();
