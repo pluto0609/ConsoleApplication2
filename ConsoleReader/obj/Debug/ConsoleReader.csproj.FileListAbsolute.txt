@@ -1,0 +1,10 @@
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleReader\bin\Debug\ConsoleReader.exe.config
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleReader\bin\Debug\ConsoleReader.exe
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleReader\bin\Debug\ConsoleReader.pdb
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleReader\obj\Debug\ConsoleReader.csprojResolveAssemblyReference.cache
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleReader\obj\Debug\ConsoleReader.exe
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleReader\obj\Debug\ConsoleReader.pdb
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleReader\bin\Debug\ConsoleReader.exe.manifest
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleReader\bin\Debug\ConsoleReader.application
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleReader\obj\Debug\ConsoleReader.exe.manifest
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleReader\obj\Debug\ConsoleReader.application

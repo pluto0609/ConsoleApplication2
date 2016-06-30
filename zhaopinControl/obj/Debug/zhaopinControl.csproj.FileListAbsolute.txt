@@ -4,3 +4,9 @@ E:\GithubRepository\ConsoleApplication2\zhaopinControl\bin\Debug\zhaopinControl.
 E:\GithubRepository\ConsoleApplication2\zhaopinControl\obj\Debug\zhaopinControl.csprojResolveAssemblyReference.cache
 E:\GithubRepository\ConsoleApplication2\zhaopinControl\obj\Debug\zhaopinControl.exe
 E:\GithubRepository\ConsoleApplication2\zhaopinControl\obj\Debug\zhaopinControl.pdb
+E:\test\ConsoleApps\ConsoleApplication2\zhaopinControl\bin\Debug\zhaopinControl.exe.config
+E:\test\ConsoleApps\ConsoleApplication2\zhaopinControl\obj\Debug\zhaopinControl.exe
+E:\test\ConsoleApps\ConsoleApplication2\zhaopinControl\obj\Debug\zhaopinControl.pdb
+E:\test\ConsoleApps\ConsoleApplication2\zhaopinControl\bin\Debug\zhaopinControl.exe
+E:\test\ConsoleApps\ConsoleApplication2\zhaopinControl\bin\Debug\zhaopinControl.pdb
+E:\test\ConsoleApps\ConsoleApplication2\zhaopinControl\obj\Debug\zhaopinControl.csprojResolveAssemblyReference.cache

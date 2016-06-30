@@ -1,0 +1,5 @@
+E:\test\ConsoleApps\ConsoleApplication2\IOThreadTest\bin\Debug\IOThreadTest.exe.config
+E:\test\ConsoleApps\ConsoleApplication2\IOThreadTest\bin\Debug\IOThreadTest.exe
+E:\test\ConsoleApps\ConsoleApplication2\IOThreadTest\bin\Debug\IOThreadTest.pdb
+E:\test\ConsoleApps\ConsoleApplication2\IOThreadTest\obj\Debug\IOThreadTest.exe
+E:\test\ConsoleApps\ConsoleApplication2\IOThreadTest\obj\Debug\IOThreadTest.pdb

@@ -1,0 +1,15 @@
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleApp.LogMongonet\bin\Debug\ConsoleApp.LogMongonet.exe.config
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleApp.LogMongonet\bin\Debug\ConsoleApp.LogMongonet.exe
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleApp.LogMongonet\bin\Debug\ConsoleApp.LogMongonet.pdb
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleApp.LogMongonet\bin\Debug\Log4Mongo.dll
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleApp.LogMongonet\bin\Debug\log4net.dll
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleApp.LogMongonet\bin\Debug\MongoDB.Bson.dll
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleApp.LogMongonet\bin\Debug\MongoDB.Driver.Core.dll
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleApp.LogMongonet\bin\Debug\MongoDB.Driver.dll
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleApp.LogMongonet\bin\Debug\log4net.xml
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleApp.LogMongonet\bin\Debug\MongoDB.Bson.xml
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleApp.LogMongonet\bin\Debug\MongoDB.Driver.xml
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleApp.LogMongonet\obj\Debug\ConsoleApp.LogMongonet.csprojResolveAssemblyReference.cache
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleApp.LogMongonet\obj\Debug\ConsoleApp.LogMongonet.exe
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleApp.LogMongonet\obj\Debug\ConsoleApp.LogMongonet.pdb
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleApp.LogMongonet\bin\Debug\log4net.config
