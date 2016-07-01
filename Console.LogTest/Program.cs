@@ -16,7 +16,7 @@ namespace ConsoleApp.LogTest
         static void Main(string[] args)
         {
 
-            for (int i = 0; i < 1000000; i++)
+            for (int i = 0; i < 100; i++)
             {
                 if (i%10000 == 0)
                 {
@@ -44,6 +44,7 @@ namespace ConsoleApp.LogTest
         private static readonly object QueLock;
         private static readonly object fileLock;
         private static readonly object dbLock;
+
 
         static LogHelper()
         {
