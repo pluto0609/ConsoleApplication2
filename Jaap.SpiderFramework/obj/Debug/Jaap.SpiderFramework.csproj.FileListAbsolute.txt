@@ -1,0 +1,5 @@
+E:\test\ConsoleApps\ConsoleApplication2\Jaap.SpiderFramework\bin\Debug\Jaap.SpiderFramework.dll
+E:\test\ConsoleApps\ConsoleApplication2\Jaap.SpiderFramework\bin\Debug\Jaap.SpiderFramework.pdb
+E:\test\ConsoleApps\ConsoleApplication2\Jaap.SpiderFramework\obj\Debug\Jaap.SpiderFramework.dll
+E:\test\ConsoleApps\ConsoleApplication2\Jaap.SpiderFramework\obj\Debug\Jaap.SpiderFramework.pdb
+E:\test\ConsoleApps\ConsoleApplication2\Jaap.SpiderFramework\obj\Debug\Jaap.SpiderFramework.csprojResolveAssemblyReference.cache

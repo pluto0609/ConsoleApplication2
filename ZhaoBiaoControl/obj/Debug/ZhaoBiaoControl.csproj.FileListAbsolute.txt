@@ -1,0 +1,17 @@
+E:\test\ConsoleApps\ConsoleApplication2\ZhaoBiaoControl\bin\Debug\ZhaoBiaoControl.exe.config
+E:\test\ConsoleApps\ConsoleApplication2\ZhaoBiaoControl\bin\Debug\ZhaoBiaoControl.exe
+E:\test\ConsoleApps\ConsoleApplication2\ZhaoBiaoControl\bin\Debug\ZhaoBiaoControl.pdb
+E:\test\ConsoleApps\ConsoleApplication2\ZhaoBiaoControl\bin\Debug\Jaap.SpiderFramework.dll
+E:\test\ConsoleApps\ConsoleApplication2\ZhaoBiaoControl\bin\Debug\Jaap.SpiderFramework.pdb
+E:\test\ConsoleApps\ConsoleApplication2\ZhaoBiaoControl\obj\Debug\ZhaoBiaoControl.csprojResolveAssemblyReference.cache
+E:\test\ConsoleApps\ConsoleApplication2\ZhaoBiaoControl\obj\Debug\ZhaoBiaoControl.exe
+E:\test\ConsoleApps\ConsoleApplication2\ZhaoBiaoControl\obj\Debug\ZhaoBiaoControl.pdb
+E:\test\ConsoleApps\ConsoleApplication2\ZhaoBiaoControl\bin\Debug\System.Web.Helpers.dll
+E:\test\ConsoleApps\ConsoleApplication2\ZhaoBiaoControl\bin\Debug\System.Web.WebPages.dll
+E:\test\ConsoleApps\ConsoleApplication2\ZhaoBiaoControl\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\test\ConsoleApps\ConsoleApplication2\ZhaoBiaoControl\bin\Debug\System.Web.Helpers.xml
+E:\test\ConsoleApps\ConsoleApplication2\ZhaoBiaoControl\bin\Debug\System.Web.WebPages.xml
+E:\test\ConsoleApps\ConsoleApplication2\ZhaoBiaoControl\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\test\ConsoleApps\ConsoleApplication2\ZhaoBiaoControl\bin\Debug\zh-Hans\System.Web.Helpers.resources.dll
+E:\test\ConsoleApps\ConsoleApplication2\ZhaoBiaoControl\bin\Debug\zh-Hans\System.Web.WebPages.resources.dll
+E:\test\ConsoleApps\ConsoleApplication2\ZhaoBiaoControl\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll

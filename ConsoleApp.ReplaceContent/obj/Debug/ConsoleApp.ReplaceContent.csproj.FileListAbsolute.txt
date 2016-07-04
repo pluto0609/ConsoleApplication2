@@ -1,0 +1,6 @@
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleApp.ReplaceContent\bin\Debug\ConsoleApp.ReplaceContent.exe.config
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleApp.ReplaceContent\bin\Debug\ConsoleApp.ReplaceContent.exe
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleApp.ReplaceContent\bin\Debug\ConsoleApp.ReplaceContent.pdb
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleApp.ReplaceContent\obj\Debug\ConsoleApp.ReplaceContent.csprojResolveAssemblyReference.cache
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleApp.ReplaceContent\obj\Debug\ConsoleApp.ReplaceContent.exe
+E:\test\ConsoleApps\ConsoleApplication2\ConsoleApp.ReplaceContent\obj\Debug\ConsoleApp.ReplaceContent.pdb
